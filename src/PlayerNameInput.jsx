@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './index.css'
 const PlayerNameInput = ({ onStartGame }) => {
   const [playerX, setPlayerX] = useState('');
   const [playerO, setPlayerO] = useState('');

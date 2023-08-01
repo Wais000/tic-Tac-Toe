@@ -26,11 +26,13 @@
   border: 1px solid #ccc;
   cursor: pointer;
   background-color: #fff;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Add glossy shadow */
 }
 
 .square:hover {
   background-color: #e0e0e0;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* Enhance glossy shadow on hover */
 }
 
 .status {
@@ -55,12 +57,14 @@
   cursor: pointer;
   background-color: #4caf50;
   color: #fff;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Add glossy shadow */
 }
 
 .restart-button:hover,
 .reset-score-button:hover {
   background-color: #45a049;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* Enhance glossy shadow on hover */
 }
 
 .restart-button:disabled,
