@@ -99,6 +99,9 @@ const App = () => {
 
   return (
     <div className="game">
+          <header className="header">
+      <h1 className="title">Tic Tac Toe</h1>
+    </header>
       <div className="board">
         {board.map((square, index) => (
           <div key={index}>{renderSquare(index)}</div>

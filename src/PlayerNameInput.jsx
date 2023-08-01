@@ -12,11 +12,12 @@ const PlayerNameInput = ({ onStartGame }) => {
 
   return (
     <div className="player-names">
+ 
       <div>
-        Player X: <input type="text" value={playerX} onChange={(e) => setPlayerX(e.target.value)} />
+        Player X: <input type="text" value={playerX} onChange={(e) => setPlayerX(e.target.value)} placeholder='Type your Name'/>
       </div>
       <div>
-        Player O: <input type="text" value={playerO} onChange={(e) => setPlayerO(e.target.value)} />
+        Player O: <input type="text" value={playerO} onChange={(e) => setPlayerO(e.target.value)} placeholder='Type your Name'/>
       </div>
       <button className="start-button" onClick={handleStartGame}>Start Game</button>
     </div>
